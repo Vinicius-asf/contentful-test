@@ -1,10 +1,10 @@
 const contentfulData = {
     url:'https://cdn.contentful.com',
     spaces:'42jcfhpme8t6',
-    entriesLocation:'b4eR_MZ5KS8yEQg_Ov0Ta8WhXkul5GyS0DlATqE5Xik'
+    token:'b4eR_MZ5KS8yEQg_Ov0Ta8WhXkul5GyS0DlATqE5Xik'
 }
 
-const contentfulURL = `${contentfulData.url}/spaces/${contentfulData.spaces}/entries?access_token=${contentfulData.entriesLocation}`;
+const contentfulURL = `${contentfulData.url}/spaces/${contentfulData.spaces}/entries?access_token=${contentfulData.token}`;
 
 const documentMain = document.getElementById('main')
 
